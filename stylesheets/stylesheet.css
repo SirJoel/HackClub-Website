@@ -7,6 +7,10 @@ body {
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
+sponsorblock {
+  display: block;
+  color: white;
+}
 
 /* General & 'Reset' Stuff */
 
