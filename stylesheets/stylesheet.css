@@ -12,9 +12,14 @@ sponsorblock {
   display: block;
   color:black;
   background-color: white;
-  font: 16px;
+  font: 18px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-weight: normal;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
 }
 
 /* General & 'Reset' Stuff */
