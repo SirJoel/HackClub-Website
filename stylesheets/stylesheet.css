@@ -17,6 +17,8 @@ sponsorbody{
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 sponsorblock {
+  margin: 30;
+  padding: 30;
   display: block;
   background-color: white;
 }
