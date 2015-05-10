@@ -9,7 +9,7 @@ body {
 }
 sponsorblock {
   display: block;
-  color: white;
+  background-color: white;
 }
 
 /* General & 'Reset' Stuff */
