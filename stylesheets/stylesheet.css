@@ -163,7 +163,6 @@ ul li {
 }
 
 ul li:before {
-  content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
   color: #b5e853;
@@ -273,4 +272,32 @@ a {
 
 .cf {
   zoom:1;
+}
+
+navbar{
+  display: inline;
+  background-color: #3aff40;
+}
+navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+navbar li{
+  float: left;
+}
+a:link, a:visited {
+  width: display: block;
+  width: 120px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #98bf21;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover, a:active{
+  background-color: #22ecdb;
 }
