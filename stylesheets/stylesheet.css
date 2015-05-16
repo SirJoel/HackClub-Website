@@ -163,7 +163,6 @@ ul li {
 }
 
 ul li:before {
-  content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
   color: #b5e853;
@@ -256,8 +255,8 @@ hr {
 */
 
 a {
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  color: rgba(0, 255, 64, 0.4);
+
 }
 
 /* Clearfix */
@@ -273,4 +272,47 @@ a {
 
 .cf {
   zoom:1;
+}
+
+navbar{
+  display: inline;
+  background-color: #3aff40;
+}
+navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+navbar li{
+  float: left;
+}
+navbar a:link, navbar a:visited {
+  width: display: block;
+  width: 120px;
+  font-weight: bold;
+  color: #b5e853;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+navbar a:hover, navbar a:active{
+  background-color: #6e6e6e;
+}
+a:link, a:visited {
+  width: display: block;
+  width: 120px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover, a:active{
+  background-color: #5a5a5a;
+}
+#hack_club_footer{
+  background-color: #38373700;
 }
