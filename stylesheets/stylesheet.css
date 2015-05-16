@@ -255,8 +255,8 @@ hr {
 */
 
 a {
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  color: rgba(0, 255, 64, 0.4);
+
 }
 
 /* Clearfix */
@@ -287,17 +287,32 @@ navbar ul{
 navbar li{
   float: left;
 }
+navbar a:link, navbar a:visited {
+  width: display: block;
+  width: 120px;
+  font-weight: bold;
+  color: #b5e853;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+navbar a:hover, navbar a:active{
+  background-color: #6e6e6e;
+}
 a:link, a:visited {
   width: display: block;
   width: 120px;
   font-weight: bold;
   color: #FFFFFF;
-  background-color: #98bf21;
   text-align: center;
   padding: 4px;
   text-decoration: none;
   text-transform: uppercase;
 }
 a:hover, a:active{
-  background-color: #22ecdb;
+  background-color: #5a5a5a;
+}
+#hack_club_footer{
+  background-color: #38373700;
 }
