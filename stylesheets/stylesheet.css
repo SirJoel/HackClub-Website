@@ -30,7 +30,11 @@ sponsorblock {
 }
 
 /* General & 'Reset' Stuff */
-
+.container3{
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
 .container2 {
   margin: 0 auto;
 }
@@ -324,4 +328,41 @@ a:hover, a:active{
   font-weight: bold;
   font-style: normal;
   font-size: 20;
+}
+.center{
+  text-align: center;
+}
+#team {
+  margin-top: 100px;
+  margin-bottom: -30px;
+}
+#team li {
+  margin-bottom: 70px;
+  float: left;
+}
+.displaytable{
+  width: 25%;
+  display: inline;
+  text-align: center;
+  width: 188px;
+  float: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: auto;
+  margin-top: auto;
+}
+#team li .avatar-wrap {
+  width: 188px;
+  height: 188px;
+  margin: 0 auto;
+  position: relative;
+}
+#team li h3 {
+  font-size: 23px;
+  margin: 15px 0 2px 0;
+  font-weight: 600;
+  color: #454545;
+}
+.membersApply{
+  padding-top: 2500px;
 }
