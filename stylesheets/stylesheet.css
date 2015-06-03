@@ -167,6 +167,10 @@ ul li {
   list-style: none;
 }
 
+sponsorblock ul li a:hover{
+  background-color: transparent;
+}
+
 ul li:before {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
