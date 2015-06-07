@@ -22,3 +22,7 @@ aside {
 #main_content h2{
 	text-align:center;
 }
+
+#team li img {
+  width: inherit;
+  height: auto;
