@@ -391,3 +391,8 @@ a:hover, a:active{
 #footer_links {
 	float: right;
 }
+
+#main_content, header, footer {
+	width: 600px;
+        margin: auto;
+}
