@@ -178,12 +178,11 @@ a:hover, a:active{
 
 /* Footer */
 .sponsor_pic {
-	width:150px;
+	width:200px;
 	height:auto;
 	overflow:hidden;
 	margin:auto;
-  margin-bottom: 50px;
-  display:block;
+  margin-bottom: 25px;
 }
 
 #sponsors {
