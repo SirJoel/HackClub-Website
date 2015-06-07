@@ -1,82 +1,63 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<!doctype html>
+<html lang="en">
+    <head>
+  	    <meta charset="utf-8">
+  	    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <title>Hack Club</title>
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+        <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
 
-    <title>Hack Club by HackClub-SLHS</title>
-  </head>
+        <link rel="stylesheet" type="text/css" href="stylesheets/main.css" media="screen">
 
-  <body>
+        </head>
+    <body>
+		<header>
+				<h1>Hack Club</h1>
+				<h2>San Leandro High School</h2>
 
-    <header>
-      <div class="container">
+				<navbar>
+          			<ul>
+            			<li><a href="/index.html">Home</a></li>
+            			<li><a href="/members.html">Hackers</a></li>
+            			<li><a href="/contact.html">Contact</a></li>
+      				</ul>
+        		</navbar>
+		</header>
 
-        <h1>Hack Club</h1>
-        <h2>San Leandro High School</h2>
+		<main id="main_content">
+			<h1>Welcome to Hack Club</h1>
 
-        <navbar>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="members.html">Hackers</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </navbar>
+			<section id="what-is-hack-club">
+				<h3>What Is Hack Club?</h3>
+				<p>Hack Club is a student run club aimed to teach computer programming, attend hackathons, and promote the hacking culture.</p>
+			</section>
 
-      </div>
-    </header>
+			<section id="when-is-hack-club-going-to-launch">
+				<h3>When is Hack Club Going to Launch?</h3>
+				<p>We are planning to launch Hack Club this September</p>
+			</section>
 
-    <div class="container">
-      <section id="main_content">
-        <h1>
-        <a id="welcome-to-hack-club" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Hack Club</h1>
+			<section id="where-can-i-sign-up">
+				<h3>Where Can I Sign Up?</h3>
 
-        <h3>
-          <a id="what-is-hack-club" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>What Is Hack Club?</h3>
+				<p>Right here:</p>
+				<form action = "https://docs.google.com/forms/d/1qU0cJpiMNGI6_vEet_eH1FW_cljlBtVKuIt285FENTQ/viewform" target="_blank"><input type="submit" value="Join Hack Club Now!" class="btn" />
+			</section>
+		</main>
 
-        <p>Hack Club is a student run club aimed to teach computer programming, attend hackathons, and promote the hacking culture.</p>
+		<footer>
+			<section id="sponsors">
+				<h3>Thanks to Our Sponsors!</h3>
+				<img class="sponsor_pic" src="/images/asset/tagstand_logo.png"/>
+				<img class="sponsor_pic" src="/images/asset/digital_ocean/DO_Logo_Horizontal_Blue.png" />
+			</section>
 
-        <h3>
-          <a id="when-is-hack-club-going-to-launch" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>When Is Hack Club Going to Launch?</h3>
 
-        <p>We are planning to launch Hack Club This september.</p>
+          	<ul id="footer_links">
+            	<li><a href="https://www.github.com/HackClub-SLHS">Github</a></li>
+            	<li><a href="https://www.hackedu.us">HackEDU</a></li>
+          	</ul>
+		</footer>
 
-        <h3>
-          <a id="where-can-i-sign-up" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Where Can I Sign Up?</h3>
-
-        <p>Right here:</p>
-        <form action = "https://docs.google.com/forms/d/1qU0cJpiMNGI6_vEet_eH1FW_cljlBtVKuIt285FENTQ/viewform" target="_blank"><input type="submit" value="Join Hack Club Now!" class="btn"></form>
-
-      </section>
-    </div>
-    <sponsorbody>
-      <sponsorblock class ="container2">
-          <h3spon class="sponsor_text">
-           <a id="thanks-to-our-sponsor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Thanks To Our Sponsors
-         </h3spon>
-         <ul>
-          <li>
-            <a href = "http://www.tagstand.com"><p><img src="images/asset/tagstand_logo.png" alt="Tagstand"></p></a>
-          </li>
-          <li>
-            <a href = "https://www.digitalocean.com"><p><img style="height:110px;" src="images/asset/digital_ocean/DO_Logo_Vertical_Blue.png" alt="Digital Ocean"></p></a>
-          </li>
-        </ul>
-     </sponsorblock>
-    </sponsorbody>
-    <footer>
-      <div class="container">
-        <section id="hack_club_footer">
-          <ul>
-            <li><a href="https://www.github.com/HackClub-SLHS">Github</a></li>
-            <li><a href="https://www.hackedu.us">HackEDU</a></li>
-          </ul>
-        </section>
-      </div>
-    </footer>
-  </div>
+    </body>
 </html>
