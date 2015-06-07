@@ -370,3 +370,24 @@ a:hover, a:active{
 .membersApply{
   padding-top: 2500px;
 }
+
+/*Brent's new code*/
+.sponsor_pic {
+	width:auto;
+	height:50px;
+	overflow:hidden;
+	margin:50;
+}
+
+#sponsors{
+	background: white;
+}
+#sponsors h3 {
+	color: black;
+}
+
+
+
+#footer_links {
+	float: right;
+}
