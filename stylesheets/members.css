@@ -5,8 +5,8 @@ aside {
 
 #team:after{
    content: " ";
-   display: block; 
-   height: 0; 
+   display: block;
+   height: 0;
    clear: both;
   }
 #team li{
@@ -26,3 +26,8 @@ aside {
 #team li img {
   width: inherit;
   height: auto;
+}
+
+#main_content section{
+  text-align:center;
+}
