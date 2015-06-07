@@ -1,0 +1,24 @@
+aside {
+	float: right;
+	margin-right:10px;
+}
+
+#team:after{
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+  }
+#team li{
+  width: 25%;
+  text-align: center;
+  width: 188px;
+  float: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: auto;
+  margin-top: auto;
+}
+#main_content h2{
+	text-align:center;
+}

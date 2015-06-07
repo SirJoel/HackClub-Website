@@ -1,32 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515 url("../images/bkg.png") 0 0;
+  background: #151515;
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-}
-sponsorbody{
-  margin: 0;
-  padding: 0;
-  background:white;
-}
-
-sponsorblock {
-  text-align: center;
-  text-indent: -150px;
-  display: block;
-  color:black;
-  background-color: white;
-  font: 18px;
-  line-height: 1.5;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-weight: normal;
-  letter-spacing: -0.03em;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
 }
 
 /* General & 'Reset' Stuff */
@@ -65,11 +44,14 @@ li {
 */
 
 header {
-  background: rgba(0, 0, 0, 0.1);
-  width: 100%;
   border-bottom: 1px dashed #b5e853;
   padding: 20px 0;
   margin: 0 0 40px 0;
+}
+
+header h1:before {
+  content: "./ ";
+  font-size: 24px;
 }
 
 header h1 {
@@ -86,10 +68,7 @@ header h1 {
   -webkit-font-smoothing: antialiased;
 }
 
-header h1:before {
-  content: "./ ";
-  font-size: 24px;
-}
+
 
 header h2 {
   font-size: 18px;
@@ -106,10 +85,7 @@ header h2 {
 /* Main Content
 */
 
-#main_content {
-  width: 100%;
-  -webkit-font-smoothing: antialiased;
-}
+
 section img {
   max-width: 100%
 }
@@ -336,37 +312,6 @@ a:hover, a:active{
 .center{
   text-align: center;
 }
-#team {
-  margin-top: 100px;
-  margin-bottom: -30px;
-}
-#team li {
-  margin-bottom: 70px;
-  float: left;
-}
-.displaytable{
-  width: 25%;
-  display: inline;
-  text-align: center;
-  width: 188px;
-  float: left;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: auto;
-  margin-top: auto;
-}
-#team li .avatar-wrap {
-  width: 188px;
-  height: 188px;
-  margin: 0 auto;
-  position: relative;
-}
-#team li h3 {
-  font-size: 23px;
-  margin: 15px 0 2px 0;
-  font-weight: 600;
-  color: #454545;
-}
 .membersApply{
   padding-top: 2500px;
 }
@@ -379,11 +324,13 @@ a:hover, a:active{
 	margin:50;
 }
 
-#sponsors{
-	background: white;
+#sponsors {
+  background-color: white;
 }
+
 #sponsors h3 {
-	color: black;
+  color: black;
+  font-weight: bold;
 }
 
 
@@ -393,6 +340,9 @@ a:hover, a:active{
 }
 
 #main_content, header, footer {
-	width: 600px;
-        margin: auto;
+	width:600px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+
