@@ -8,7 +8,7 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
-#main_content, header, footer {
+#main_content, header, footer :not(#sponsors) {
 	width:900px;
 	margin-left: auto;
 	margin-right: auto;
@@ -177,7 +177,11 @@ a:hover, a:active{
 }
 
 /* Footer */
-.sponsor_pic {
+footer{
+  margin-top:100px;
+}
+
+#sponsors .sponsor_pic {
 	width:200px;
 	height:auto;
 	overflow:hidden;
@@ -185,9 +189,13 @@ a:hover, a:active{
   margin-bottom: 25px;
 }
 
-#sponsors {
+#sponsors{
   background-color: white;
   text-align:center;
+}
+
+#sponsors :not(.sponsor_pic){
+  width:100%;
 }
 
 #sponsors h3 {
