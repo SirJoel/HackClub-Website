@@ -175,7 +175,11 @@ a:link, a:visited {
   text-transform: uppercase;
 }
 a:hover, a:active{
-  background-color: #5a5a5a;
+  background-color: white;
+}
+
+.payment-form{
+
 }
 
 /* Footer */
