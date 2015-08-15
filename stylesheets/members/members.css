@@ -1,0 +1,154 @@
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #b5e853;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); }
+
+#main_content, header, footer {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto; }
+
+html body {
+  margin: 0;
+  padding: 0;
+  background-color: #151515;
+  color: #eaeaea;
+  font: 16px;
+  line-height: 1.5;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; }
+  html body header {
+    border-bottom: 1px dashed #b5e853;
+    padding: 20px 0; }
+    html body header h1 {
+      font-size: 30px;
+      line-height: 1.5;
+      margin: 0 0 0 -40px;
+      font-weight: bold;
+      font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+      color: #b5e853;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
+      letter-spacing: -1px;
+      -webkit-font-smoothing: antialiased; }
+    html body header h1:before {
+      content: "./ ";
+      font-size: 24px; }
+    html body header h2 {
+      font-size: 18px;
+      font-weight: 300;
+      color: #666; }
+    html body header navbar {
+      display: inline; }
+      html body header navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; }
+        html body header navbar ul li {
+          float: left; }
+        html body header navbar ul a {
+          color: #b5e853; }
+        html body header navbar ul a:link {
+          width: 120px;
+          font-weight: bold;
+          text-align: center;
+          padding: 4px;
+          text-decoration: none;
+          text-transform: uppercase; }
+  html body #main_content section {
+    text-align: center; }
+    html body #main_content section h4 {
+      font-size: 14px; }
+    html body #main_content section .btn {
+      display: inline-block;
+      background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+      padding: 8px 18px;
+      border-radius: 50px;
+      border: 2px solid rgba(0, 0, 0, 0.7);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+      border-top: 2px solid black;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      font-size: 13px;
+      text-decoration: none;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05); }
+  html body #main_content h2 {
+    text-align: center;
+    font-size: 24px; }
+  html body #main_content #team li {
+    text-align: center;
+    width: 188px;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    margin-top: auto;
+    list-style: none; }
+    html body #main_content #team li img {
+      width: inherit;
+      height: auto; }
+  html body #main_content #team:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both; }
+  html body footer {
+    margin-top: 100px; }
+    html body footer #sponsors {
+      background-color: white;
+      text-align: center; }
+      html body footer #sponsors h3 {
+        color: black;
+        font-weight: bold; }
+      html body footer #sponsors a:link {
+        font-weight: bold;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 4px;
+        text-decoration: none;
+        text-transform: uppercase; }
+        html body footer #sponsors a:link .sponsor_pic {
+          width: 200px;
+          height: auto;
+          overflow: hidden;
+          margin: auto;
+          margin-bottom: 25px; }
+    html body footer #sponsors :not(.sponsor_pic) {
+      width: 100%; }
+    html body footer #partner {
+      background-color: white;
+      text-align: center; }
+      html body footer #partner h3 {
+        color: black;
+        font-weight: bold; }
+      html body footer #partner a:link {
+        font-weight: bold;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 4px;
+        text-decoration: none;
+        text-transform: uppercase; }
+        html body footer #partner a:link .partner_pic {
+          width: 200px;
+          height: auto;
+          overflow: hidden;
+          margin: auto;
+          margin-bottom: 25px; }
+    html body footer #partner :not(.partner_pic) {
+      width: 100%; }
+    html body footer #footer_links {
+      float: right; }
+      html body footer #footer_links li {
+        list-style: none;
+        font-weight: bold;
+        text-align: center;
+        padding: 4px;
+        text-decoration: none;
+        text-transform: uppercase; }
+        html body footer #footer_links li a {
+          color: #FFFFFF; }
+
+/*# sourceMappingURL=members.css.map */
