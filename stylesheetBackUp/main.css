@@ -8,7 +8,9 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
-#main_content, header, footer :not(#sponsors) {
+
+
+#main_content, header, footer {
 	width:900px;
 	margin-left: auto;
 	margin-right: auto;
@@ -173,8 +175,9 @@ a:link, a:visited {
   text-transform: uppercase;
 }
 a:hover, a:active{
-  background-color: #5a5a5a;
+  background-color: white;
 }
+
 
 /* Footer */
 footer{
@@ -199,6 +202,28 @@ footer{
 }
 
 #sponsors h3 {
+  color: black;
+  font-weight: bold;
+}
+
+#partner .partner_pic {
+	width:200px;
+	height:auto;
+	overflow:hidden;
+	margin:auto;
+  margin-bottom: 25px;
+}
+
+#partner{
+  background-color:white;
+  text-align:center;
+}
+
+#partner :not(.partner_pic){
+  width:100%;
+}
+
+#partner h3 {
   color: black;
   font-weight: bold;
 }

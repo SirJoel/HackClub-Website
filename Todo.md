@@ -1,5 +1,4 @@
 - [ ] improve writing on website
 - [ ] create better footer
 - [ ] intergrate donation with stripe
-- [ ] get a proper domain
-  - [ ] find a day to look for domain with hack club team
+- [x] get a proper domain
