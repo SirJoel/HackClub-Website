@@ -90,6 +90,20 @@ html body {
     html body #main_content #team li img {
       width: inherit;
       height: auto; }
+  html body #main_content #team .social {
+    width: 100%;
+    text-align: center; }
+    html body #main_content #team .social ul {
+      padding: 0 0 0 0;
+      display: inline-block; }
+      html body #main_content #team .social ul li {
+        padding: 5px;
+        width: 30px;
+        height: auto;
+        display: inline-block; }
+        html body #main_content #team .social ul li a img {
+          width: 30px;
+          height: auto; }
   html body #main_content #team:after {
     content: " ";
     display: block;
