@@ -1,4 +1,0 @@
-- [ ] improve writing on website
-- [ ] create better footer
-- [ ] intergrate donation with stripe
-- [x] get a proper domain

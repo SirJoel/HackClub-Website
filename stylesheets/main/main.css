@@ -13,107 +13,93 @@ h1, h2, h3, h4, h5, h6 {
 html body {
   margin: 0;
   padding: 0;
-  background-color: #151515;
+  background-image: url("/images/declar/code_wallpaper.png");
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; }
-  html body header {
-    border-bottom: 1px dashed #b5e853;
-    padding: 20px 0; }
-    html body header h1 {
-      font-size: 30px;
-      line-height: 1.5;
-      margin: 0 0 0 -40px;
-      font-weight: bold;
-      font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-      color: #b5e853;
-      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
-      letter-spacing: -1px;
-      -webkit-font-smoothing: antialiased; }
-    html body header h1:before {
-      content: "./ ";
-      font-size: 24px; }
-    html body header h2 {
-      font-size: 18px;
-      font-weight: 300;
-      color: #666; }
-    html body header navbar {
-      display: inline; }
-      html body header navbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden; }
-        html body header navbar ul li {
-          float: left; }
-        html body header navbar ul a {
-          color: #b5e853; }
-        html body header navbar ul a:link {
-          width: 120px;
+  html body .grey_block {
+    background-color: rgba(80, 80, 80, 0.85);
+    width: 100%;
+    height: 100%; }
+    html body .grey_block header {
+      border-bottom: 1px dashed #b5e853;
+      padding: 20px 0; }
+      html body .grey_block header .logos img {
+        width: 25%;
+        height: auto; }
+      html body .grey_block header .logos p {
+        font-size: 18px;
+        margin: 5px 0px 18px 0px;
+        font-weight: 300;
+        color: #666; }
+      html body .grey_block header nav a {
+        color: #b5e853;
+        font-weight: bold;
+        padding: 4px;
+        text-decoration: none;
+        text-transform: uppercase; }
+    html body .grey_block #main_content h1 {
+      font-size: 30px; }
+    html body .grey_block #main_content h3 {
+      font-size: 18px; }
+    html body .grey_block #main_content a {
+      color: white; }
+    html body .grey_block footer {
+      margin-top: 100px;
+      margin-bottom: 100px; }
+      html body .grey_block footer #sponsors {
+        background-color: white;
+        text-align: center; }
+        html body .grey_block footer #sponsors h3 {
+          color: black;
+          font-weight: bold; }
+        html body .grey_block footer #sponsors a:link {
+          font-weight: bold;
+          color: #FFFFFF;
+          text-align: center;
+          padding: 4px;
+          text-decoration: none;
+          text-transform: uppercase; }
+          html body .grey_block footer #sponsors a:link .sponsor_pic {
+            width: 200px;
+            height: auto;
+            overflow: hidden;
+            margin: auto;
+            margin-bottom: 25px; }
+      html body .grey_block footer #sponsors :not(.sponsor_pic) {
+        width: 100%; }
+      html body .grey_block footer #partner {
+        background-color: white;
+        text-align: center; }
+        html body .grey_block footer #partner h3 {
+          color: black;
+          font-weight: bold; }
+        html body .grey_block footer #partner a:link {
+          font-weight: bold;
+          color: #FFFFFF;
+          text-align: center;
+          padding: 4px;
+          text-decoration: none;
+          text-transform: uppercase; }
+          html body .grey_block footer #partner a:link .partner_pic {
+            width: 200px;
+            height: auto;
+            overflow: hidden;
+            margin: auto;
+            margin-bottom: 25px; }
+      html body .grey_block footer #partner :not(.partner_pic) {
+        width: 100%; }
+      html body .grey_block footer .footerlinks ul {
+        float: right; }
+        html body .grey_block footer .footerlinks ul li {
+          list-style: none;
           font-weight: bold;
           text-align: center;
           padding: 4px;
           text-decoration: none;
           text-transform: uppercase; }
-  html body #main_content h1 {
-    font-size: 30px; }
-  html body #main_content h3 {
-    font-size: 18px; }
-  html body footer {
-    margin-top: 100px; }
-    html body footer #sponsors {
-      background-color: white;
-      text-align: center; }
-      html body footer #sponsors h3 {
-        color: black;
-        font-weight: bold; }
-      html body footer #sponsors a:link {
-        font-weight: bold;
-        color: #FFFFFF;
-        text-align: center;
-        padding: 4px;
-        text-decoration: none;
-        text-transform: uppercase; }
-        html body footer #sponsors a:link .sponsor_pic {
-          width: 200px;
-          height: auto;
-          overflow: hidden;
-          margin: auto;
-          margin-bottom: 25px; }
-    html body footer #sponsors :not(.sponsor_pic) {
-      width: 100%; }
-    html body footer #partner {
-      background-color: white;
-      text-align: center; }
-      html body footer #partner h3 {
-        color: black;
-        font-weight: bold; }
-      html body footer #partner a:link {
-        font-weight: bold;
-        color: #FFFFFF;
-        text-align: center;
-        padding: 4px;
-        text-decoration: none;
-        text-transform: uppercase; }
-        html body footer #partner a:link .partner_pic {
-          width: 200px;
-          height: auto;
-          overflow: hidden;
-          margin: auto;
-          margin-bottom: 25px; }
-    html body footer #partner :not(.partner_pic) {
-      width: 100%; }
-    html body footer #footer_links {
-      float: right; }
-      html body footer #footer_links li {
-        list-style: none;
-        font-weight: bold;
-        text-align: center;
-        padding: 4px;
-        text-decoration: none;
-        text-transform: uppercase; }
-        html body footer #footer_links li a {
-          color: #FFFFFF; }
+          html body .grey_block footer .footerlinks ul li a {
+            color: #FFFFFF; }
 
 /*# sourceMappingURL=main.css.map */
