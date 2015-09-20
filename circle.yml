@@ -1,0 +1,20 @@
+dependencies:
+  pre:
+    - sudo apt-get update; sudo apt-get install ruby-sass
+test:
+  pre:
+    - mkdir app/css
+    - sass stylesheet/main/main.sass:stylesheet/main/main.css
+    - sass stylesheet/calendar/calendar.sass:stylesheet/calendar/calendar.css
+    - sass stylesheet/contact/contact.sass:stylesheet/contact/contact.css
+    - sass stylesheet/members/members.sass:stylesheet/members/members.css
+  
+deployment:
+  production:
+    branch: master
+    commands:
+      - cd /var/www/hackclubslhs.com.git/HackClub-SLHS.github.io        
+      - git fetch --all        
+      - git reset --hard origin/master     
+      - git pull origin master     
+      - service apache2 reload
