@@ -3,7 +3,6 @@ dependencies:
     - sudo apt-get update; sudo apt-get install ruby-sass
 test:
   pre:
-    - mkdir app/css
     - sass stylesheet/main/main.sass:stylesheet/main/main.css
     - sass stylesheet/calendar/calendar.sass:stylesheet/calendar/calendar.css
     - sass stylesheet/contact/contact.sass:stylesheet/contact/contact.css
