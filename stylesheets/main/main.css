@@ -66,7 +66,14 @@ html body {
             height: auto;
             overflow: hidden;
             margin: auto;
-            margin-bottom: 25px; }
+            margin-bottom: 25px;
+            opacity: 0.2;
+            filter: alpha(opacity=0);
+            transition: all 0.2s ease; }
+            html body .grey_block footer #sponsors a:link .sponsor_pic:hover{
+              opacity: 1.0;
+              filter: alpha(opacity=100);
+            }
       html body .grey_block footer #sponsors :not(.sponsor_pic) {
         width: 100%; }
       html body .grey_block footer #partner {
@@ -87,7 +94,14 @@ html body {
             height: auto;
             overflow: hidden;
             margin: auto;
-            margin-bottom: 25px; }
+            margin-bottom: 25px;
+            opacity: 0.2;
+            filter: alpha(opacity=0);
+            transition: all 0.2s ease;  }
+            html body .grey_block footer #partner a:link .partner_pic:hover{
+              opacity: 1.0;
+              filter: alpha(opacity=100);
+            }
       html body .grey_block footer #partner :not(.partner_pic) {
         width: 100%; }
       html body .grey_block footer .footerlinks ul {
