@@ -1,0 +1,9 @@
+dependencies:
+  pre:
+    - sudo apt-get update; sudo apt-get install ruby-sass
+test:
+  pre:
+    - sass stylesheets/main/main.sass:stylesheets/main/main.css
+    - sass stylesheets/calendar/calendar.sass:stylesheets/calendar/calendar.css
+    - sass stylesheets/contact/contact.sass:stylesheets/contact/contact.css
+    - sass stylesheets/members/members.sass:stylesheets/members/members.css
